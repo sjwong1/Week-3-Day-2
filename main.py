@@ -1,4 +1,4 @@
-# # Week  
+# # Week
 # # This week we will work on :
 # # Working With Strings
 
@@ -12,10 +12,6 @@
 # # 1.   Building a Basic Calculator
 # # 2.   Mad Libs Game
 
-
-
-
-
 # # Review
 # create variables for the following :
 # 1. age
@@ -24,14 +20,14 @@
 # 4. food
 # 5. number
 
-age = 18 
+age = 18
 name = "Seb"
 song = "imagine dragon"
 food = "rice"
 number = 7
 # #now include the variables you just made print in the following...
 
-# Once upon a time, there was a [age] old coder named [name]. 
+# Once upon a time, there was a [age] old coder named [name].
 
 # [name] liked to hum the song [song] while coding. It was so annoying that their teammates would throw [food] until [name] would stop singing.
 
@@ -48,17 +44,13 @@ number = 7
 
 # print (f"{name} liked to hum the song {song} while coding. It was so annoying that their teammates would throw {food} until {name} would stop singing.")
 
-
-
-
-
 ##########################################################################################
 # The names you use when creating these labels need to follow a few rules:
 # 1. Names can not start with a number.
 # 2. There can be no spaces in the name, use _ instead.
 # 3. Can't use any of these symbols :'",<>/?|\()!@#$%^&*~-+
 # 4. It's considered best practice (PEP8) that names are lowercase.
-# 5. Avoid using the characters 'l' (lowercase letter el), 'O' (uppercase letter oh), 
+# 5. Avoid using the characters 'l' (lowercase letter el), 'O' (uppercase letter oh),
 #    or 'I' (uppercase letter eye) as single character variable names.
 # 6. Avoid using words that have special meaning in Python like "list" and "str"
 
@@ -82,7 +74,6 @@ number = 7
 # The percentage of marks obtained by a student                   grades = 75%
 # A variable to store the number of items in a shopping cart      shopping_Cart= 30
 
-
 # Identify Valid and Invalid Names: Identify which of the following names are valid or invalid according to the rules:
 
 # first_name valid
@@ -91,12 +82,9 @@ number = 7
 # percentage valid
 # variable_name valid
 # 1_variable invalid
-# email@address invalid 
-# percentage% invalid 
+# email@address invalid
+# percentage% invalid
 # i valid
-
-
-
 
 # Declare two variables, called name and age.
 # Set the name variable value to "Tony Soprano" and the age value to 51.
@@ -113,7 +101,6 @@ number = 7
 
 # Assign the value "Julia" to first_name, and for last_name, assign the value "Roberts". Finally, build the variable full_name by concatenating these two variables (remember to add a space in between)
 
-
 # Variables Practice #3
 # Declare the variable course, assign it the value "Python", and print the following sentence:
 # You are taking a course course
@@ -129,7 +116,7 @@ number = 7
 # 2. Basic Arithmetic
 # 3. Differences between classic division and floor division
 
-# Python has various "types" of numbers (numeric literals). 
+# Python has various "types" of numbers (numeric literals).
 # 1. We'll mainly focus on integers and floating point numbers.
 # Integers are just whole numbers, positive or negative. For example: 2 and -2 are examples of integers.
 # 2. Floating point numbers in Python are notable because they have a decimal point in them, or use an exponential (e) to define the number. For example 2.0 and -2.1 are examples of floating point numbers. 4E2 (4 times 10 to the power of 2) is also an example of a floating point number in Python.
@@ -153,26 +140,24 @@ number = 7
 # name = "tony"
 # print(type(name))
 
-# ClassInSession = True 
+# ClassInSession = True
 # print(type(ClassInSession))
 
 # floating point numbers
-# dollar = 50.25 
-# price_of_book = 39.99 
+# dollar = 50.25
+# price_of_book = 39.99
 # print(dollar)
 # print (dollar + price_of_book)
 # print(total)
 # print(type(total))
 # print(dollar + price_of_book)
 
+######
 
 # money_for_movie = float(input("how much money do you have?"))
 # money_for_dinner = float(input ("how much money do you have for dinner"))
 # total_cost = money_for_dinner + money_for_movie
 # print(f" you have $"+ str(total_cost) + " for the movie and dinner.")
-
-
-
 
 # Floats Practice
 # Declare a numeric variable named decimal_num that contains a value of float type of your choice.
@@ -185,13 +170,12 @@ number = 7
 # num2 = 2.5
 # Next, print on the screen the data type that results from the sum of both numbers.
 
-
 num1 = 7.5
 num2 = 2.5
 
 total = num1 + num2
 
-print (f"{total}")
+print(f"{total}")
 #################################Data Type conversions####################
 # slides 12 -19
 # Data Type Conversions Practice #1
@@ -214,12 +198,10 @@ num2 = float(num2)
 #################################formatting strings####################
 # slide 19 -22
 
-
 # Strings Formatting Practice #1
 # We need to print the associate name and number within the following sentence:
 # "Dear (associate_name), your associate number is: (associate_number)"
 # Remember that the precision of your answer (spaces, spelling and punctuation) is very important to arrive at the correct result.
-
 
 # associate_name = "Jesse Pinkman"
 # associate_number = 399058
@@ -230,7 +212,6 @@ num2 = float(num2)
 # Tell the user the amount of points earned within the following phrase:
 # "You have earned (new_points) points! In total, you have accumulated (total_points) points"
 # Remember that the precision of your answer (spaces, spelling and punctuation) is very important to arrive at the correct result
-
 
 # Strings Formatting Practice #3
 # Tell the user the amount of points earned within the following phrase:
@@ -253,7 +234,7 @@ num2 = float(num2)
 # # absolute value
 # # order of operations
 # #to do more you need to import special math libraries from python
-# #from math import *     
+# #from math import *
 # #this goes out and grabs some different math functions we can use
 # #floor method
 # #ceil method
@@ -312,21 +293,11 @@ num2 = float(num2)
 
 # Note: For the problems involving floor, ceil, and sqrt, students will need to use the `math` library functions in Python.
 
-
 # Print on the screen the floor division of the following two numbers: 874 divided by 27
-
-
 
 # Print on the screen the modulus of 456 divided by 33
 
-
-
 # Calculate and print the square root of 783
-
-
-
-
-
 
 ##########################################################################################
 # So what have we learned? We learned some of the basics of numbers in Python. We also learned how to do arithmetic and use Python as a basic calculator. We then wrapped it up with learning about Variable Assignment in Python.
@@ -342,21 +313,9 @@ num2 = float(num2)
 # # find the remainder of the numbers
 # #round one number
 
-
-
-
-
-
-
-
 ######### on to the last slide for your challenge-- work on this with another person .
 
 # 1) create a new repl for the challenge
 # 2) name it challenge week 3
 # 3) invite the other person to your repl.
 # 4) you now have a mind partner in collaborating on solving this challenge
-
-
-
-
-
